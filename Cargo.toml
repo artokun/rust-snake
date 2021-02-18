@@ -3,8 +3,12 @@ name = "snake"
 version = "0.1.0"
 authors = ["Art Longbottom <art.longbottom.jr@gmail.com>"]
 edition = "2018"
+description = "An epic game of snakes eating apples"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package.metadata.bundle]
+name = "Rust Snake"
+identifier = "com.alongbottom.rust-snake"
+version = "1.0.0"
 
 [dependencies]
 rand = "0.8.3"
